@@ -1,1 +1,1 @@
-# Query-Splunk-Using-SPL
+# Querying-Splunk-Using-SPL
