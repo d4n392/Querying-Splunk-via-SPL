@@ -1,6 +1,6 @@
 ## SPL Querying
-In this introductory Splunk lab, I explored the fundamentals of SPL (Search Processing Language) indexing and applied it to search specific log events. I began by running basic search queries like _index="main" host="mailsv" fail* root_ to identify failed login attempts to the root user on the mail server. Indicating a possible _brute force_ attack I then shifted gears to analyze data from a vendor sales server by querying _index="main" host=vendor_sales"_.
-This lab helped me gain a practical understanding of how to search through indexed data and refine my results based on specific hosts and keywords, improving my ability to detect potential security incidents or system failures.
+In this Splunk lab, I explored various SPL queries to analyze security events and user activities. I started by querying _index="main"_ for all logged events to establish a baseline for system activity. Next, we focused on vendor sales activity, retrieving events associated with the "vendor_sales" host to monitor top sales performance. We then narrowed our analysis to the "mailsv" host, examining logs for failed login attempts to detect unauthorized access attempts. Finally, we specifically investigated failed _root_ login attempts on the mail server, uncovering multiple suspicious activities that pointed towards a potential _brute force_ attack. 
+This lab helped me gain a practical understanding of how to search through indexed data and refine my results based on specific hosts and keywords, improving my ability to detect potential security incidents.
 
 ### Step 1: Query the Main Index for All Events
 SPL Query: _index="main"_
