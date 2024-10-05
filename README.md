@@ -1,4 +1,5 @@
 # Querying-Splunk-via-SPL
+In this introductory Splunk Lab I naviagted the basics of SPL indexing. 
 
 ![Screenshot 2024-09-07 132402](https://github.com/user-attachments/assets/025f40cd-a5fd-4e03-ae6a-a9a6d5a05468)
 
